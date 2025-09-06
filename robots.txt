@@ -9,4 +9,4 @@ Disallow: /node_modules/
 Allow: /
 
 # Sitemap
-Sitemap: https://allmovies.netlify.app/sitemap.xml
+Sitemap: https://allmovies.com.br/sitemap.xml
