@@ -11,17 +11,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
   {% include "seo.njk" %}
   <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "name": "IPTV: A Melhor Lista IPTV de 2025 - Assine IPTV All Movies",
-        "url": "https://allmoviestv.com.br/",
-        "description": "Experimente o Teste IPTV com sistema anti-travas e aproveite uma experiência de entretenimento fluida e de alta qualidade.", 
-        "inLanguage": "pt-BR"
-      }
-    </script>
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "IPTV: A Melhor Lista IPTV de 2025 - Assine IPTV All Movies",
+      "url": "https://allmoviestv.com.br/",
+      "description": "Experimente o Teste IPTV com sistema anti-travas e aproveite uma experiência de entretenimento fluida e de alta qualidade.", 
+      "inLanguage": "pt-BR"
+    }
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" type="text/css" href="/css/styles.css" media="screen" />
+  {% include "amp.njk" %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17161310477"></script>
 <script>
@@ -39,6 +40,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
   {{ content | safe }}
+  {% include "footer.njk" %}
+  {% include "whatsapp.njk" %}
 </body>
 
 </html>
